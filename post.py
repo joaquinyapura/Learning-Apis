@@ -14,4 +14,4 @@ response = requests.post(URL,data=params) #GET HTTP
 
 if response.status_code == 200:
     payload=response.json()
-    print(payload)
+    print(response.text)
