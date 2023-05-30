@@ -8,7 +8,7 @@ params={
     'email':'emag@gmail.com'
 }
 
-response = requests.post(URL) #GET HTTP
+response = requests.post(URL,data=params) #GET HTTP
 
 
 
